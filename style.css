@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+}
+
+.main-heading{
+  color: rebeccapurple;
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#todoInput, #todoDate{
+  font-size: 19px;
+  border-radius: 10px;
+}
+
+#todo-button{
+  background-color: green;
+  border: none;
+  font-size: 20px;
+  color: azure;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+span{
+  color: aliceblue;
+  background-color: blueviolet;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.deleteButton{
+  background-color: red;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
